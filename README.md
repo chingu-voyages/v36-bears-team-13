@@ -1,14 +1,40 @@
-# voyage-tasks
+# NannyNow
 
-Your project's `readme` is as important to success as your code. For 
-this reason you should put as much care into its creation and maintenance
-as you would any other component of the application.
+<b>NannyNow</b> helps struggling parents who need help with child care when schedules overlap.
+Provides a way to match them with a nanny or babysitter depending on their needs.
 
-If you are unsure of what should go into the `readme` let this article,
-written by an experienced Chingu, be your starting point - 
-[Keys to a well written README](https://tinyurl.com/yk3wubft).
+<hr>
 
-And before we go there's "one more thing"! Once you decide what to include
-in your `readme` feel free to replace the text we've provided here.
+## MVP Goals:
 
-> Own it & Make it your Own!
+<table>
+<tr>
+<th>Priority</th>
+<th>Feature Description</th>
+</tr>
+<tr>
+<td>MUST HAVE</td>
+<td>Nannies should be able to post their ad (offering babysitting)</td>
+</tr>
+<tr>
+<td>MUST HAVE</td>
+<td>Filtering nannies (price, child age, area, availability, gender,experience)
+Name/Description/E-mail/Phone/</td>
+</tr>
+<tr>
+<td>SHOULD HAVE</td>
+<td>Rating nannies (stars, reviews)</td>
+</tr>
+<tr>
+<td>NICE TO HAVE</td>
+<td>Parents should post ads looking for nannies</td>
+</tr>
+<tr>
+<td>NICE TO HAVE</td>
+<td>User doesn’t want to see bad quality/offensive ads</td>
+</tr>
+<tr>
+<td>NICE TO HAVE</td>
+<td>Nannies can share their profile on social media</td>
+</tr>
+</table>
