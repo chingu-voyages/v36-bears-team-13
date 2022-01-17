@@ -4,7 +4,7 @@ import { ads } from "./Adverts.test.js";
 function App() {
   return (
     <div>
-      <p>Nanny Now</p>
+      <h1 id="title">Nanny Now</h1>
       {Adverts(ads)}
     </div>
   );
