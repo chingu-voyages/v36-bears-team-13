@@ -16,7 +16,7 @@ const Advert = ({
   console.log("name", name);
   return (
     <li>
-      <section className="advert">
+      <section className="card">
         <div className="main">
           <hgroup>
             <h1 className="name">{name}</h1>

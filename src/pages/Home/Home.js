@@ -5,7 +5,7 @@ const Home = () => {
   console.log("ad", ads);
   return (
     <div className="flex-1 bg-gradient-to-br from-indigo-100 to-indigo-200 justify-center items-center">
-      <ul id="adverts">
+      <ul id="cards">
         {ads.map((ad) => (
           <Advert
             key={ad.id}

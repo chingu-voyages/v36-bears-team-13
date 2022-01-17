@@ -3,10 +3,10 @@
   font-size: 4rem;
 }
 /* One advert per row */
-#adverts {
+#cards {
   list-style: none;
 }
-.advert {
+.card {
   /* Separate adverts from each other */
   border: 2px solid black;
   border-radius: 5px;
