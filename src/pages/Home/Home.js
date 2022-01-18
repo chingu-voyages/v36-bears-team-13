@@ -8,7 +8,6 @@ const Home = () => {
       <AdCard />
       <AdCard />
       <AdCard />
-      <AdCard />
     </div>
   );
 };
