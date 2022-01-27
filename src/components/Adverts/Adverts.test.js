@@ -1,4 +1,4 @@
-import Adverts from "./Adverts";
+// import Adverts from "./Adverts";
 
 export const ads = [
   {
@@ -11,7 +11,7 @@ export const ads = [
     name: "Jane Doe",
     description: "I'm an Ofsted-registered nanny.",
     email: "janedoe@example.com",
-    phone: "01234 567890",
+    phone: "01234 567890"
   },
   {
     price: "£9/hour",
@@ -23,6 +23,6 @@ export const ads = [
     name: "Janet Snow",
     description: "I've been nannying for 6 years.",
     email: "janetsnow@example.com",
-    phone: "01234 567891",
-  },
+    phone: "01234 567891"
+  }
 ];
