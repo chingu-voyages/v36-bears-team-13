@@ -1,4 +1,4 @@
-import "./style/main.css";
+// import "./style/main.css";
 import Navigation from "./components/Navigation/Navigation.js";
 import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -10,9 +10,12 @@ import CreateAd from "./pages/CreateAd/CreateAd";
 
 function App() {
   return (
-    <div className="flex flex-col h-screen">
+    <div>
       <Router>
-        <Navigation />
+        <header>
+          <Navigation />
+        </header>
+        <hr />
         <Routes>
           <Route element={<Auth />}>
             <Route path="/login" element={<Login />}></Route>
@@ -22,6 +25,7 @@ function App() {
           <Route exact path="/create" element={<CreateAd />}></Route>
         </Routes>
       </Router>
+      <hr />
       <Footer />
     </div>
   );

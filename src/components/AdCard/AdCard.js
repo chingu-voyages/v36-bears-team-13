@@ -2,11 +2,11 @@ import React from "react";
 
 const AdCard = (ad) => {
   return (
-    <li>
-      <section className="advert">
+    <aside className="advert">
+      <article>
         <div className="main">
           <hgroup>
-            <h1 className="name">{ad.name}</h1>
+            <h3 className="name">{ad.name}</h3>
           </hgroup>
           <p className="description">{ad.description}</p>
           <div className="main-details">
@@ -25,12 +25,16 @@ const AdCard = (ad) => {
             <p>Experience: {ad.experience}</p>
           </div>
           <div className="contact-details">
-            <p>Email: {ad.email}</p>
-            <p>Phone: {ad.phone}</p>
+            <small>
+              <address>{ad.email}</address>
+            </small>
+            <small>
+              <address>{ad.phone}</address>
+            </small>
           </div>
         </div>
-      </section>
-    </li>
+      </article>
+    </aside>
   );
 };
 
