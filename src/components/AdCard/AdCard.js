@@ -21,8 +21,8 @@ const AdCard = (ad) => {
         <div className="details">
           <div className="differentiators">
             <p>Price: {ad.price}</p>
-            <p>Gender: {ad.gender}</p>
             <p>Experience: {ad.experience}</p>
+            <p>Gender: {ad.gender}</p>
           </div>
           <div className="contact-details">
             <small>
