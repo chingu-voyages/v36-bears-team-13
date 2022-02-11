@@ -38,3 +38,9 @@ Name/Description/E-mail/Phone/</td>
 <td>Nannies can share their profile on social media</td>
 </tr>
 </table>
+
+## Design
+
+The information in each advert is grouped and ordered to help differentiate between adverts. For example, availability is placed more prominently than price.
+
+In lieu of a designer, [MVP.css](https://andybrewer.github.io/mvp/) (a classless stylesheet) is used for style.
